@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F87429E07274AFEC94B3697 /* Pods_FirebaseTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152266A9F3B29810C7BD4BFB /* Pods_FirebaseTutorial.framework */; };
 		C81DA3881E3EB2E500CB15A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3871E3EB2E500CB15A8 /* AppDelegate.swift */; };
 		C81DA38A1E3EB2E500CB15A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3891E3EB2E500CB15A8 /* ViewController.swift */; };
-		C81DA38D1E3EB2E500CB15A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81DA38B1E3EB2E500CB15A8 /* Main.storyboard */; };
 		C81DA38F1E3EB2E600CB15A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81DA38E1E3EB2E600CB15A8 /* Assets.xcassets */; };
 		C81DA3921E3EB2E600CB15A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81DA3901E3EB2E600CB15A8 /* LaunchScreen.storyboard */; };
 		C81DA39D1E3EB2E600CB15A8 /* FirebaseTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA39C1E3EB2E600CB15A8 /* FirebaseTutorialTests.swift */; };
 		C81DA3A81E3EB2E600CB15A8 /* FirebaseTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3A71E3EB2E600CB15A8 /* FirebaseTutorialUITests.swift */; };
+		C81DA3B61E3EB2F800CB15A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81DA3B51E3EB2F800CB15A8 /* Main.storyboard */; };
+		C81DA3BB1E3EB30800CB15A8 /* TutorSignUpViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3B71E3EB30800CB15A8 /* TutorSignUpViewControllerOne.swift */; };
+		C81DA3BC1E3EB30800CB15A8 /* TutorSignUpViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3B81E3EB30800CB15A8 /* TutorSignUpViewControllerTwo.swift */; };
+		C81DA3BD1E3EB30800CB15A8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3B91E3EB30800CB15A8 /* SignUpViewController.swift */; };
+		C81DA3BE1E3EB30800CB15A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3BA1E3EB30800CB15A8 /* LoginViewController.swift */; };
+		C81DA3C01E3EB31700CB15A8 /* TutorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DA3BF1E3EB31700CB15A8 /* TutorsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152266A9F3B29810C7BD4BFB /* Pods_FirebaseTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8EE7D9060669BA88E6780 /* Pods-FirebaseTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		C81DA3841E3EB2E500CB15A8 /* FirebaseTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81DA3871E3EB2E500CB15A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C81DA3891E3EB2E500CB15A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C81DA38C1E3EB2E500CB15A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C81DA38E1E3EB2E600CB15A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C81DA3911E3EB2E600CB15A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81DA3931E3EB2E600CB15A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		C81DA3A31E3EB2E600CB15A8 /* FirebaseTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81DA3A71E3EB2E600CB15A8 /* FirebaseTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTutorialUITests.swift; sourceTree = "<group>"; };
 		C81DA3A91E3EB2E600CB15A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81DA3B51E3EB2F800CB15A8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C81DA3B71E3EB30800CB15A8 /* TutorSignUpViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorSignUpViewControllerOne.swift; sourceTree = "<group>"; };
+		C81DA3B81E3EB30800CB15A8 /* TutorSignUpViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorSignUpViewControllerTwo.swift; sourceTree = "<group>"; };
+		C81DA3B91E3EB30800CB15A8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C81DA3BA1E3EB30800CB15A8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C81DA3BF1E3EB31700CB15A8 /* TutorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorsTableViewController.swift; sourceTree = "<group>"; };
+		CD26B1EB3D22FC1E8E1CB25E /* Pods-FirebaseTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F87429E07274AFEC94B3697 /* Pods_FirebaseTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20237D549F1CEDBC33E20D94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75A8EE7D9060669BA88E6780 /* Pods-FirebaseTutorial.debug.xcconfig */,
+				CD26B1EB3D22FC1E8E1CB25E /* Pods-FirebaseTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AC6995C1C53B69E9844197A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152266A9F3B29810C7BD4BFB /* Pods_FirebaseTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C81DA37B1E3EB2E500CB15A8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				C81DA39B1E3EB2E600CB15A8 /* FirebaseTutorialTests */,
 				C81DA3A61E3EB2E600CB15A8 /* FirebaseTutorialUITests */,
 				C81DA3851E3EB2E500CB15A8 /* Products */,
+				20237D549F1CEDBC33E20D94 /* Pods */,
+				9AC6995C1C53B69E9844197A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +133,12 @@
 			children = (
 				C81DA3871E3EB2E500CB15A8 /* AppDelegate.swift */,
 				C81DA3891E3EB2E500CB15A8 /* ViewController.swift */,
-				C81DA38B1E3EB2E500CB15A8 /* Main.storyboard */,
+				C81DA3B71E3EB30800CB15A8 /* TutorSignUpViewControllerOne.swift */,
+				C81DA3B81E3EB30800CB15A8 /* TutorSignUpViewControllerTwo.swift */,
+				C81DA3B91E3EB30800CB15A8 /* SignUpViewController.swift */,
+				C81DA3BA1E3EB30800CB15A8 /* LoginViewController.swift */,
+				C81DA3BF1E3EB31700CB15A8 /* TutorsTableViewController.swift */,
+				C81DA3B51E3EB2F800CB15A8 /* Main.storyboard */,
 				C81DA38E1E3EB2E600CB15A8 /* Assets.xcassets */,
 				C81DA3901E3EB2E600CB15A8 /* LaunchScreen.storyboard */,
 				C81DA3931E3EB2E600CB15A8 /* Info.plist */,
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C81DA3AC1E3EB2E600CB15A8 /* Build configuration list for PBXNativeTarget "FirebaseTutorial" */;
 			buildPhases = (
+				477C940FF067171FE0F7337A /* [CP] Check Pods Manifest.lock */,
 				C81DA3801E3EB2E500CB15A8 /* Sources */,
 				C81DA3811E3EB2E500CB15A8 /* Frameworks */,
 				C81DA3821E3EB2E500CB15A8 /* Resources */,
+				0E3585AE22986EC33BE48056 /* [CP] Embed Pods Frameworks */,
+				739AC10E124CA641CD07ACE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81DA3B61E3EB2F800CB15A8 /* Main.storyboard in Resources */,
 				C81DA3921E3EB2E600CB15A8 /* LaunchScreen.storyboard in Resources */,
 				C81DA38F1E3EB2E600CB15A8 /* Assets.xcassets in Resources */,
-				C81DA38D1E3EB2E500CB15A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +299,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E3585AE22986EC33BE48056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		477C940FF067171FE0F7337A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		739AC10E124CA641CD07ACE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C81DA3801E3EB2E500CB15A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81DA3BE1E3EB30800CB15A8 /* LoginViewController.swift in Sources */,
+				C81DA3BB1E3EB30800CB15A8 /* TutorSignUpViewControllerOne.swift in Sources */,
 				C81DA38A1E3EB2E500CB15A8 /* ViewController.swift in Sources */,
+				C81DA3BC1E3EB30800CB15A8 /* TutorSignUpViewControllerTwo.swift in Sources */,
+				C81DA3C01E3EB31700CB15A8 /* TutorsTableViewController.swift in Sources */,
 				C81DA3881E3EB2E500CB15A8 /* AppDelegate.swift in Sources */,
+				C81DA3BD1E3EB30800CB15A8 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +394,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C81DA38B1E3EB2E500CB15A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C81DA38C1E3EB2E500CB15A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C81DA3901E3EB2E600CB15A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +500,7 @@
 		};
 		C81DA3AD1E3EB2E600CB15A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A8EE7D9060669BA88E6780 /* Pods-FirebaseTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HNK7ZEMZ36;
@@ -426,6 +514,7 @@
 		};
 		C81DA3AE1E3EB2E600CB15A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD26B1EB3D22FC1E8E1CB25E /* Pods-FirebaseTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HNK7ZEMZ36;
